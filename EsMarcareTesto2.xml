@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Utilizzare puntatori, note, lista, glossario, marcare nomi, rs, term.
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il caffè della Peppina</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>zecchinodoro.org</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Canzone che nel 1971 vinse lo Zecchino d'oro
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>
+                <note>Piccolo dizionario</note>
+                <list> 
+                    <item>
+                        <entry xml:id="rosm">Rosmarino</entry>
+                        <sense>Arbusto sempreverde, spontaneo o coltivato, con fiori azzurri o biancastri e 
+                        fogliette lineari usate in cucina per aromatizzare le vivande</sense>
+                    </item>
+
+                    <item>
+                        <entry xml:id="petr">Petrolio</entry>
+                        <sense>Il petrolio è una miscela liquida di colore tra giallastro e nero
+                        di origine organica usata come fonte di energia</sense>
+                    </item>
+
+                    <item>
+                        <entry xml:id="trit">Tritolo</entry>
+                        <sense>Potente esplosivo, utilizzato anche per la fabbricazione di razzi e miscele esplosive</sense>
+                    </item>
+                </list>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Il caffè della Peppina</head>
+            <div>
+                <lg xml:id="ritornello">
+                    <l>Il caffè della Peppina</l>
+                    <l>Non si beve alla mattina</l>
+                    <l>Né col latte, né col thè</l>
+                    <l>Ma perché, perché, perché</l>
+                </lg>
+                <lg>
+                    <l>La Peppina fa il caffè</l>
+                    <l>Fa il caffè con la cioccolata</l>
+                    <l>Poi ci mette la marmellata</l>
+                    <l>Mezzo chilo di cipolle</l>
+                    <l>Quattro o cinque caramelle</l>
+                    <l>Sette ali di farfalle</l>
+                    <l>E poi dice: <q><emph>«Che caffè!»</emph></q></l>
+                </lg>
+                <lg ref="#ritornello">
+                    <l>Il caffè della Peppina</l>
+                    <l>Non si beve alla mattina</l>
+                    <l>Né col latte, né col thè</l>
+                    <l>Ma perché, perché, perché</l>
+                </lg>
+                <lg>
+                    <l>La Peppina fa il caffè</l>
+                    <l>Fa il caffè col rosmarino<ptr target="#rosm"/></l>
+                    <l>Mette qualche formaggino</l>
+                    <l>Una zampa di tacchino</l>
+                    <l>Una penna di pulcino</l>
+                    <l>Cinque sacchi di farina</l>
+                    <l>E poi dice: <q><emph>«Che caffè!»</emph></q></l>
+                </lg>
+                <lg ref="#ritornello">
+                    <l>Il caffè della Peppina</l>
+                    <l>Non si beve alla mattina</l>
+                    <l>Né col latte, né col thè</l>
+                    <l>Ma perché, perché, perché</l>
+                </lg>
+                <lg>
+                    <l>La Peppina fa il caffè</l>
+                    <l>Fa il caffè con pepe e sale</l>
+                    <l>L'aglio no, perché fa male
+                    <l>L'acqua sì, ma col petrolio<ptr target="#petr"/></l>
+                    <l>Insalata, aceto e olio</l>
+                    <l>Quando prova col tritolo<ptr target="#trit"/></l>
+                    <l>Salta in aria col caffè</l>
+                </lg>
+                <lg ref="#ritornello">
+                    <l>Il caffè della Peppina</l>
+                    <l>Non si beve alla mattina</l>
+                    <l>Né col latte, né col thè</l>
+                    <l>Ma perché, perché, perché</l>
+                    <l>Il caffè della Peppina</l>
+                    <l>Non si beve alla mattina</l>
+                    <l>Né col latte, né col thè</l>
+                    <l>Ma perché, perché, perché</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

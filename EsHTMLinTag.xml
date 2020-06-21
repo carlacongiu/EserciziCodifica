@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Inserire all'interno di un tag un frammento di codice HTML
+-->
+
+<testo>
+    <![CDATA[
+    <h1> Principi fondamentali </h1>
+        <h2>Articolo 1</h2>
+            <p>L'Italia è una Repubblica democratica, fondata sul lavoro.</p>
+            <p>La sovranità appartiene al popolo, che la esercita nelle forme e nei limiti della Costituzione.</p>
+    ]]>
+</testo>

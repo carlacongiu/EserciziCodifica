@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Marcare un testo plain text di circa 3000 caratteri a piacere.
+    - Inserire prologo XML
+    - Marcare la struttura usando gli elementi fi qui descritti in particolare marcare tutti i paragrafi
+      usando <p> e la struttura editoriale usando <div>
+    - Verificare che sia ben formato con xmllint
+    - Salvare il file XML su github 
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il gatto, uno dei migliori amici dell'uomo.</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Focus.it</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Parti di un articolo sul gatto pubblicato sul sito Focus.it.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Il gatto, uno dei migliori amici dell'uomo.</head>
+            <div>
+                <p>
+                    Dolce ma riservato, intelligente ma non obbediente, autonomo ma bisognoso di cure e di affetto, 
+                    ama la casa ma anche stare fuori. Domestico ma anche selvatico.
+                    Forse per questo spesso non lo capiamo, così continuano a girare sul piccolo felino, 
+                    dicerie e luoghi comuni che non hanno fondamento scientifico, ecco perché...
+                </p>
+
+                <p>
+                    Solitario e schivo in natura, il gatto (Felis catus) in casa ama la compagnia.
+                    Ma anche quando vive per strada nelle nostre città, crea colonie in cui condivide 
+                    il territorio con altri suoi simili. Un comportamento che probabilmente ha imparato 
+                    vivendo a contatto con l'uomo.
+                </p>
+
+            </div>
+    
+            <div>
+                <head>È solitario</head>
+
+                <p>
+                    Il gatto, <foreign xml:lang="latino">Felis catus</foreign>, viene definito un animale solitario dagli etologi, gli studiosi del comportamento animale. 
+                    Questo significa che per sopravvivere non ha bisogno di stare in società, cioè in un gruppo organizzato. Insomma, il 
+                    gatto selvatico (parente stretto del nostro micio di casa) caccia e vive da solo. A parte il momento dell’accoppiamento. 
+                    Ma questo, anche in natura, vale soprattutto per i maschi, perché la gatta ha invece dei lunghi periodi di socialità: 
+                    quali la nascita, l’allevamento e l’educazione dei piccoli.
+                </p>
+
+                <p>
+                    I gatti che abitano in città invece, maschi e femmine, vivono in colonie e tra loro hanno rapporti diversificati di 
+                    amicizia, indifferenza, antipatia, proprio come avviene tra gli esseri umani. Le gatte inoltre, allevano e custodiscono 
+                    insieme i loro piccoli, in una sorta di asilo nido.
+                </p>
+
+                <p>
+                    Il gatto ha quindi bisogno di socialità, di rapporti e di affetto. Per questo se ne parla come di un animale di tipo 
+                    “relazionale” (ossia bisognoso di rapportarsi agli altri).
+                </p>
+
+                <p>
+                    Ci sono naturalmente differenze anche tra loro: esistono gatti più o meno estroversi e più o meno interessati ai 
+                    propri simili e agli esseri umani. Un po’ dipende dall’”indole” ma molto deriva dalle esperienze che hanno fatto nei 
+                    primi tempi di vita. In particolare i primi due mesi sono fondamentali, ma in realtà il gatto impara fino al primo anno 
+                    di vita, quando diventa “maggiorenne”, un giovane adulto. Se in questa fase ha avuto delle buone esperienze, sarà più 
+                    disponibile a situazioni nuove. Viceversa sarà più “scontroso” e timoroso.
+                </p>
+
+                <p>
+                    Ma ci sono anche differenze tra gli esseri umani: alcune persone sono più capaci di relazionarsi ai gatti. Non 
+                    dimentichiamo che è sempre un rapporto a due.
+                </p>
+            </div>
+            <div>
+                <head>Fa le fusa quando è contento</head>
+
+                <p>
+                    Il gatto fa le fusa per comunicare uno stato di benessere, di soddisfazione, è vero. Si tratta di un comportamento 
+                    precocissimo, i micini già da neonati con le fusa dicono alla madre di stare bene, e la gatta contraccambia, in un 
+                    concerto di “ron ron”. Questo sistema di comunicazione infantile permane per tutta la vita, il gatto quando è contento 
+                    fa le fusa, che non sono sempre uguali, hanno sfumature e vibrazioni diverse a seconda degli individui e delle situazioni.
+                </p>
+    
+                <p>
+                    Gli amanti dei gatti e gli studiosi ipotizzano che alle fusa sia collegato un rilascio di endorfine, molecole 
+                    organiche che producono una sensazione di benessere. Una sorta di antidolorifico naturale. Che comunque non esclude 
+                    assolutamente l’uso di farmaci contro il dolore, prescritti dal veterinario.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

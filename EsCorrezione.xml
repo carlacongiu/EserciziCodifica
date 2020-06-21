@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Aprire il file XML non ben formato presente nel repository github:
+    - validarlo con XMLlint
+    - correggerlo (commentando gli errori e le modifiche)
+    - aggiungere un figlio (child) ad un elemento
+    - aggiungere un fratello (sibling) ad un elemento
+-->
+
+<!--<test1> gli elementi devono avere lo stesso nome-->
+<test>
+<!--
+<ciao> gli elementi devono essere ben indentati-->
+    <ciao>
+<!--</test>
+</ciao> gli elementi devono essere ben annidati -->
+        <mondo>
+        </mondo>
+    </ciao>
+    <puntoEsclamativo>
+    </puntoEsclamativo>
+</test>

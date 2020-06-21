@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Inserire nel prologo di un documento XML la dichiarazione del tipo di documento e validare.
+-->
+<!DOCTYPE TEI SYSTEM "EsDTD.dtd">
+
+<TEI>
+    <header type="intestazione" lang="ita">
+    </header>
+    <facsimile source="sorgente">
+    </facsimile>
+    <testo id="uno" type="prova">
+    </testo>
+</TEI>

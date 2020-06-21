@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:lang="it">
+            <titleStmt>
+                <title>Il mio primo dizionario</title>
+                <author>Carla Congiu</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>informazioni sulla pubblicazione</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Informazioni sulla sorgente</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>       
+        
+            <entry>
+                <form type="lemma">
+                    <orth>fregare</orth>
+                    <pron notation="ipa">freˈgare</pron>
+                    <syll>fre|gà|re</syll>
+                </form>
+                <gramGrp>
+                    <pos>vtr.</pos>
+                </gramGrp>
+                <etym>
+                    dal <lang>latino</lang> <mentioned>frĭcare</mentioned>
+                </etym>
+                <sense n="1">
+                    <def>fare dei freghi</def>
+                    <cit type="example"> 
+                        <quote>Avendo preso male le misure, fregò la portiera dell'automobile contra la colonna dell'ingresso del garage</quote>
+                    </cit>
+                </sense>
+                <sense n="2">
+                    <usg type="reg">popolare</usg>
+                    <def>tirare un bidone</def>
+                    <cit type="example">
+                        <quote>Ti ha fregato!</quote>
+                    </cit>
+                    <cit type="example">
+                        <quote>Il baro lo fregò di brutto calando un poker d'assi alla fine dell'ultima mano</quote>
+                    </cit>
+                </sense>
+                <sense n="3">
+                    <def>rubare</def>
+                    <cit type="example">
+                        <quote>Mi sono distratta un attimo e mi hanno fregato la borsa da sotto il naso!</quote>
+                    </cit>
+                </sense>
+                <sense n="4">
+                    <def>interessare, importare</def>
+                    <cit type="example">
+                        <quote>Non me ne frega niente </quote>
+                    </cit>
+                </sense>
+                <sense n="5">
+                    <note>per estensione</note>
+                    <def>imbrogliare o ingannare, quindi in modo ipocrita</def>
+                    <cit type="example">
+                        <quote>oh, tu non mi freghi</quote>
+                    </cit>
+                </sense>
+            </entry>
+        </body>
+    </text>
+</TEI>
